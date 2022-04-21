@@ -7,7 +7,7 @@ int main()
     {
         for (int i = 1; i <=20 ; i++)
     {
-       if ((i%x==0)&&(y%x==0))
+       if ((i%x==0)&&(y%i==0))
        {
          printf("%d\t",i);
        }
